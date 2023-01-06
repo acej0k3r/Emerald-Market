@@ -1,0 +1,30 @@
+import Head from 'next/head'
+import React from 'react'
+import Navbar from './Navbar'
+import Footer from './Footer'
+
+
+const Layout = ({ children }) => {
+  return (  
+    <div className='layout'> 
+      <Head>
+        <title>Emerald Market</title>      
+      </Head>
+      <header>
+        <Navbar />
+      </header>
+      <main
+        className='main-contianer'
+      >
+        {children}
+      </main>
+      <footer >
+        <Footer  />
+      </footer>
+      
+      
+    </div>
+  )
+}
+
+export default Layout
