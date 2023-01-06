@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link';
 import { bsBagCheckFill } from 'react-icons/bs';
 import { useRouter } from 'next/router'
-import { useStateContext } from './context/StateContext';
+import { useStateContext } from '../context/StateContext'; 
 import { runStarExplosion } from '../lib/util';
 
 

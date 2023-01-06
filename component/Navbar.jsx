@@ -4,7 +4,8 @@ import { AiOutlineShopping } from 'react-icons/ai'
 import Image from 'next/image'
 import Emerald from '../assets/assets/emerald.png'
 import Cart from './Cart';
-import { useStateContext } from '../pages/context/StateContext'
+import { useStateContext } from '../context/StateContext'; 
+
 
 
 const Navbar = () => {
